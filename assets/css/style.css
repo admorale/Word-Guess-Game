@@ -23,7 +23,21 @@
     padding: 1%;
     border: 2px solid blue;
 }
+#results-block {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 720px;
+    padding: 1%;
+    border: 2px solid blue;
+}
 #restart {
     font-weight: bold;
     border: 1px solid black;
+}
+#slots, #guessed {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
